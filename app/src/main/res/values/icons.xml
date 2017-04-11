@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fa_icon_user">&#xf007;</string>
+    <string name="fa_icon_email">&#xf003;</string>
+    <string name="fa_icon_phone">&#xf095;</string>
+    <string name="fa_icon_notes">&#xf24a;</string>
+    <string name="fa_icon_plus">&#xf067;</string>
+    <string name="fa_icon_save">&#xf0c7;</string>
+</resources>

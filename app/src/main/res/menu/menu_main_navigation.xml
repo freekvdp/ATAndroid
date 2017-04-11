@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Account"
+        android:id="@+id/account"
+        app:showAsAction="always"
+        android:icon="@drawable/logo4_round" />
+
+    <item android:id="@+id/all_projects"
+        android:title="All projects" >
+    </item>
+    <item android:id="@+id/add_project"
+        android:title="Add Project" >
+    </item>
+    <item android:id="@+id/archive"
+        android:title="Archive" >
+    </item>
+    <item android:id="@+id/sign_out"
+        android:title="@string/sign_out" >
+    </item>
+    <item android:id="@+id/settings"
+        android:title="Settings" >
+    </item>
+</menu>

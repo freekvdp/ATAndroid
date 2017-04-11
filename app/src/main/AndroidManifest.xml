@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.actortemplate.atandroid">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo4_round"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo4_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.LoginActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.ProjectOverviewActivity"
+            android:label="@string/title_activity_project_overview"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".activity.TemplateOverviewActivity"
+            android:label="@string/title_activity_template_overview"
+            android:parentActivityName=".activity.ProjectOverviewActivity">
+        </activity>
+        <activity
+            android:name=".activity.ChangeTemplateActivity"
+            android:label="@string/title_activity_template_change"
+            android:parentActivityName=".activity.TemplateOverviewActivity">
+        </activity>
+        <activity
+            android:name=".activity.ShowPersonActivity"
+            android:label="@string/title_activity_show_person"
+            android:parentActivityName=".activity.ProjectOverviewActivity">
+        </activity>
+        <activity
+            android:name=".activity.ShowUserActivity"
+            android:label="@string/title_activity_show_person"
+            android:parentActivityName=".activity.ProjectOverviewActivity">
+        </activity>
+    </application>
+
+</manifest>
